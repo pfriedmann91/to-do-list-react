@@ -38,9 +38,7 @@ const borrarTarea = (index) => {
                 ))}
             </ul>
 			<div >
-        <small>
-		{tareas.length} item left
-		</small>
+        <small> {tareas.length} items left </small>
 			</div>
         </div>
     );
